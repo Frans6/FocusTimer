@@ -47,6 +47,7 @@ buttonStop.addEventListener('click', function() {
   controls.reset()
   timer.reset()
   sound.pressButton()
+  sound.bgAudio.pause()
 })
 
 buttonSoundOff.addEventListener('click', function() {
